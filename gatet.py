@@ -42,7 +42,7 @@ def Tele(ccx):
 	    'accept-language': 'en-US,en;q=0.9',
 	    'cache-control': 'no-cache',
 	    'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-	    # 'cookie': '__stripe_mid=29b7e385-6f01-4cf6-b48f-ef916da42142d8ed93; __stripe_sid=a20796ea-226d-4e43-9893-02d9b5e38119a42bed',
+	    # 'cookie': '__stripe_mid=cc134ea7-828d-4ed3-86dc-834a9eb4292e2cbdb5; __stripe_sid=a20796ea-226d-4e43-9893-02d9b5e38119a42bed',
 	    'origin': 'https://golf316.org',
 	    'pragma': 'no-cache',
 	    'referer': 'https://golf316.org/donations/',
@@ -57,11 +57,10 @@ def Tele(ccx):
 	}
 	
 	params = {
-	    't': '1725183979566',
+	    't': '1725376205549',
 	}
 	
-	data = {
-	    'data': '__fluent_form_embded_post_id=2161&_fluentform_7_fluentformnonce=4440d5f94d&_wp_http_referer=%2Fdonations%2F&names%5Bfirst_name%5D=&names%5Blast_name%5D=&email=&payment_input=Other&custom-payment-amount=1&payment_method=stripe&__stripe_payment_method_id='+str(pm)+'',
+	data = {__fluent_form_embded_post_id=2161&_fluentform_7_fluentformnonce=69bf5ff950&_wp_http_referer=%2Fdonations%2F&names%5Bfirst_name%5D=Sai&names%5Blast_name%5D=Lauo&email=binsharpoe%40gmail.com&payment_input=Other&custom-payment-amount=1&payment_method=stripe&__entry_intermediate_hash=80e40ab22055f1637efdb560b5b2e993&__stripe_payment_method_id='+str(pm)+'',
 	    'action': 'fluentform_submit',
 	    'form_id': '7',
 	}
