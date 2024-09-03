@@ -60,7 +60,8 @@ def Tele(ccx):
 	    't': '1725376205549',
 	}
 	
-	data = '__fluent_form_embded_post_id=2161&_fluentform_7_fluentformnonce=69bf5ff950&_wp_http_referer=%2Fdonations%2F&names%5Bfirst_name%5D=Sai&names%5Blast_name%5D=Lauo&email=binsharpoe%40gmail.com&payment_input=Other&custom-payment-amount=1&payment_method=stripe&__entry_intermediate_hash=80e40ab22055f1637efdb560b5b2e993&__stripe_payment_method_id='+str(pm)+'',
+	data = {
+	'__fluent_form_embded_post_id=2161&_fluentform_7_fluentformnonce=69bf5ff950&_wp_http_referer=%2Fdonations%2F&names%5Bfirst_name%5D=Sai&names%5Blast_name%5D=Lauo&email=binsharpoe%40gmail.com&payment_input=Other&custom-payment-amount=1&payment_method=stripe&__entry_intermediate_hash=80e40ab22055f1637efdb560b5b2e993&__stripe_payment_method_id='+str(pm)+'',
 	    'action': 'fluentform_submit',
 	    'form_id': '7',
 	}
